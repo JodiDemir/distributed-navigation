@@ -1,7 +1,53 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+nav ul {
+  list-style-type: none;
+
+  display: flex;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  padding: 1rem;
+  align-items: center;
+}
+
+header img {
+  width: 2rem;
+  align-self: flex-start;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #0074d9;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+header ul li a {
+  padding: 1rem;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+header p {
+  align-self: auto;
 }
